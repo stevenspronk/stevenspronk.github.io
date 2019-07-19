@@ -1,0 +1,30 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url("header.jpg") center no-repeat;
+  background-size: 100%;
+}
+
+#center_texts {
+  height: 90vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+  color: white;
+}
+.btn-primary{
+background-color: rgb(255, 135, 0);
+border-color: rgb(199, 105, 0);
+border-radius: 1.5em;
+border-width: 3px;
+}
+.btn-primary:hover{
+  background-color: rgb(199, 105, 0);
+  border-color: rgb(199, 105, 0);
+}
